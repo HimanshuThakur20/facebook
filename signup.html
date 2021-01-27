@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook | sign up</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="icon" href="icon.png">
+</head>
+
+<body>
+    <div class="container">
+         
+        <div class="signup">
+            <a href="index.html"><img src="close.png" alt="close" id="close"></a>
+            <h2><strong>Sign up</strong></h2>
+            <span>It's quick and easy.</span>
+            
+               <hr>
+             <div class="signup-form">
+            <form id="mainform" name="mainform" action="#">
+                 
+                <input type="text" placeholder="Name" id="uname">
+                <input type="text" placeholder="Surname" id="surname">
+                <br>
+                <input type="text" placeholder="Mobile number or Email" id="email">
+                  <br>
+                <input type="password" placeholder="Password" id="password"> <br>
+                <label for="DOB" style="font-weight: 750;"> Date of birth</label><br>
+                <input type="date" id="DOB" name="DOB"> <br>
+                <span>Gender</span> <br>
+            <div id="genders">
+                <input type="radio" id="m" name="gender" value="Male" class="gender">
+                <label for="male"> <strong>Male</strong>
+                </label> <br>
+                <input type="radio" id="f" name="gender" value="Female" class="gender">
+                <label for="female"> <strong>Female</strong>
+                </label> <br>
+                <input type="radio" id="o" name="gender" value="Other" >
+                <label for="other"> <strong>Other</strong>
+                </label> <br>
+             
+            </div>
+        </form>
+                <p id="TC">By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. <br> You may receive SMS
+                    notifications from us and can opt out at any time.</p>
+                <button type="submit" id="signup" value="submit" > Sign up </button>
+            
+            </div>
+        </div>
+    </div>
+    
+        <div class="table" id="table">
+            <table >
+                    <tr>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Email</th>
+                        <th>DOB</th>
+                        <th>Gender</th>                         
+                    </tr>
+
+                    <tr>
+                        <td>Himanshu</td>
+                        <td>Thakur</td>
+                        <td> himanshu@gmail.com</td>     //test values
+                        <td> 10/07/02</td>
+                        <td> Male</td>
+                    </tr>
+            </table>
+       
+        </div>
+   
+</body>
+<script src="signup.js"></script>
+
+</html>
